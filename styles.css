@@ -142,13 +142,13 @@
   }
   @media screen and (min-width: 320px) {
     .hero {
-      background-image: url(../img/bg-rain-1x.jpg);
+      background-image: url(./img/bg-rain-1x.jpg);
     
     }
   }
   @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../img/bg-rain-2x.jpg);
+      background-image: url(./img/bg-rain-2x.jpg);
       
     }
   }
@@ -262,12 +262,12 @@
   @media screen and (min-width: 320px) {
     .about-before {
       background-size: cover;
-      background-image: radial-gradient(84.34% 50.29% at 48.75% 49.71%, #2950C2 0%, rgba(38, 91, 199, 0.96) 40.62%, rgba(39, 98, 187, 0) 85.42%), url(../img/bg-blue-1x.jpg);
+      background-image: radial-gradient(84.34% 50.29% at 48.75% 49.71%, #2950C2 0%, rgba(38, 91, 199, 0.96) 40.62%, rgba(39, 98, 187, 0) 85.42%), url(./img/bg-blue-1x.jpg);
     }
   }
   @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
     .about-before {
-      background-image: radial-gradient(84.34% 50.29% at 48.75% 49.71%, #2950C2 0%, rgba(38, 91, 199, 0.96) 40.62%, rgba(39, 98, 187, 0) 85.42%), url(../img/bg-blue-2x.jpg);  
+      background-image: radial-gradient(84.34% 50.29% at 48.75% 49.71%, #2950C2 0%, rgba(38, 91, 199, 0.96) 40.62%, rgba(39, 98, 187, 0) 85.42%), url(./img/bg-blue-2x.jpg);  
     }
   }
   
@@ -339,12 +339,12 @@
   @media screen and (min-width: 320px) {
     .about-after {
       background-size: cover;
-      background-image: url(../img/bg-stars-1x.jpg);
+      background-image: url(./img/bg-stars-1x.jpg);
     }
   }
   @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
     .about-after {
-      background-image: url(../img/bg-stars-2x.jpg);
+      background-image: url(./img/bg-stars-2x.jpg);
     }
   }
   
@@ -375,7 +375,7 @@
     top: 80px;
     right: 0;
     z-index: -1;
-    background-image: url(../img/lightning-up.png);
+    background-image: url(./img/lightning-up.png);
     background-size: auto;
     background-repeat: no-repeat;
   background-position: right;
@@ -390,7 +390,7 @@
     top: 260px;
     left: 0;
     z-index: -1;
-    background-image: url(../img/lightning-down.png);
+    background-image: url(./img/lightning-down.png);
     background-size: auto;
     background-repeat: no-repeat;
    background-position: left;
@@ -498,13 +498,13 @@
     
     @media screen and (min-width: 320px) {
       .page-bg {
-        background-image: url(../img/bg-stars-page-1x.jpg);
+        background-image: url(./img/bg-stars-page-1x.jpg);
       
       }
     }
     @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
       .page-bg {
-        background-image: url(../img/bg-stars-page-2x.jpg);
+        background-image: url(./img/bg-stars-page-2x.jpg);
         
       }
     }
@@ -948,13 +948,13 @@
   
   @media screen and (min-width: 320px) {
     .main-rezult {
-      background-image: url(../img/bg-stars-page-1x.jpg);
+      background-image: url(./img/bg-stars-page-1x.jpg);
     
     }
   }
   @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
     .main-rezult {
-      background-image: url(../img/bg-stars-page-2x.jpg);
+      background-image: url(./img/bg-stars-page-2x.jpg);
       
     }
   }
@@ -1110,13 +1110,13 @@
 
   @media screen and (min-width: 320px) {
     .footer-text {
-      background-image: url(../img/bg-stars-page-1x.jpg);
+      background-image: url(./img/bg-stars-page-1x.jpg);
     
     }
   }
   @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
     .footer-text {
-      background-image: url(../img/bg-stars-page-2x.jpg);
+      background-image: url(./img/bg-stars-page-2x.jpg);
       
     }
   }
@@ -1130,7 +1130,7 @@
     top: 320px;
     right: 0;
     z-index: -1;
-    background-image: url(../img/lightning-right.png);
+    background-image: url(./img/lightning-right.png);
     background-size: auto;
     background-repeat: no-repeat;
   background-position: right;
@@ -1145,7 +1145,7 @@
     top: 330px;
     left: 0;
     z-index: -1;
-    background-image: url(../img/lightning-left.png);
+    background-image: url(./img/lightning-left.png);
     background-size: auto;
     background-repeat: no-repeat;
   background-position: left;
