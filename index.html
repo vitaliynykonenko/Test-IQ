@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@300;400;500;900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="stylesheet" href="./styles.css">
+    <title>Test IQ</title>
+  </head>
+  <body>
+    <!---Шапка сайта-->
+    <header class="header">
+
+        <button type="button" class="menu-open-btn">
+          <svg
+            class=""
+            width="24"
+            height="16"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use href="./img/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
+
+      <div class="nav-mobile-menu is-hidden">
+      
+          <div class="menu-mob-top">
+            <button type="button" class="menu-close-btn">
+              <svg
+                class=""
+                width="28"
+                height="28"
+                aria-label="Переключатель мобильного меню"
+              >
+                <use href="./img/symbol-defs.svg#icon-close"></use>
+              </svg>
+            </button>
+
+            <div class="navigation-mobile">
+              <ul class="menu-mob-list list">
+                <li class="menu-mob-item">
+                  <a class="menu-mob-link link" href="./index.html"
+                    >ГЛАВНАЯ</a
+                  >
+                </li>
+                <li class="menu-mob-item">
+                  <a class="menu-mob-link link" href="./index.html"
+                    >ИНФОРМАЦИЯ О ТЕСТЕ</a>
+                </li>
+                <li class="menu-mob-item">
+                  <a class="menu-mob-link link" href="./index.html">ПРОЙТИ ТЕСТ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+      </div>
+    </header>
+
+    <!--Герой-->
+    <main>
+
+      <section class="hero">
+     
+          <p class="hero-text-before">Пройдите точный и быстрый</p>
+          <h1 class="hero-title">ТЕСТ НА ОПРЕДЕЛЕНИЕ IQ</h1>
+
+          <a href="#test" class="hero-btn link">
+          
+            ПРОЙТИ ТЕСТ
+         </a>
+       
+          <p class="hero-text-after"><span class="hero-text-color">и получите рекомендации 
+            по развитию своего интеллекта <br></span> 
+            и улучшению финансового благосостояния и личной жизни</p>
+           
+            <a href="#details" class="link">
+            
+            <svg
+                class="hero-btn-up"
+                width="16"
+                height="16"
+                aria-label="Подробное описание"
+              >
+                <use href="./img/symbol-defs.svg#icon-up"></use>
+              </svg>
+          
+          </a>
+           
+            <p class="hero-detail">Подробнее</p>
+               
+      </section>
+
+      <div id="details" class="about-before">
+        <svg
+        class="quotes-up"
+        width="23"
+        height="22.35"
+        aria-label="Подробное описание"
+      >
+        <use href="./img/symbol-defs.svg#icon-quotes-up"></use>
+      </svg>
+        <p class="about-text-before">Профессиональный IQ-тест позволяет не только определить коэффициент вашего интеллекта, 
+          но и выработать список рекомендаций для повышения этого показателя.</p>
+          <svg
+          class="quotes-down"
+          width="23"
+          height="22.35"
+          aria-label="Подробное описание"
+        >
+          <use href="./img/symbol-defs.svg#icon-quotes-down"></use>
+        </svg>
+      </div>
+
+      <section>
+        <h2 hidden>О нас</h2>
+    
+      <div id="about" class="about-main">
+       
+        <p class="about-main-text">Также по результатам теста
+          <span class="about-text-upper">вы получите</span> подробные <span class="about-text-upper">советы</span> 
+          по определению наиболее перспективной <span class="about-text-upper">для вашего типа</span> 
+         <span class="about-text-bolt">интеллекта </span><span class="about-text-upper">сферы деятельности,</span> 
+          которая принесет вам скорейший финансовый результат.
+          </p>
+          <picture>
+            <source
+              srcset="./img/brain-1x.jpg 1x, ./img/brain-2x.jpg 2x"
+              media="(min-width: 320px)"
+            >
+            <img src="./img/brain-1x.jpg" alt="Мозг человека" >
+          </picture>
+        
+          <a href="#test" class="hero-btn link">
+            ПРОЙТИ ТЕСТ
+          </a>
+      
+      </div>
+
+      <div class="about-after">
+        
+        <p class="about-after-text">Прохождение теста займет у вас не более 
+         <span class="about-after-accent">12 минут</span>, а его результаты вы сможете
+         <span class="about-after-accent">использовать всю жизнь. 
+        </span>
+
+        </p>
+        
+        <div class="lightning-up">
+
+        </div>
+        <p class="about-describe">Профессиональная интерпретация и детально 
+          проработанные рекомендации позволят вам качественно изменить все аспекты 
+          своей жизни: от финансового до любовного.</p>
+        <div class="lightning-down">
+ 
+        </div>
+      
+        <a href="#test" class="about-btn link">
+          ПРОЙТИ ТЕСТ
+      </a>
+    
+        <p class="about-author">&#169; 2023</p>
+      </div>
+    </section>
+
+    <div class="container">
+    <div id="test" class="header">
+      <div class="header-content">
+            <button type="button" class="menu-open-btn">
+              <svg
+                class=""
+                width="24"
+                height="16"
+                aria-label="Переключатель мобильного меню"
+              >
+                <use href="./img/symbol-defs.svg#icon-menu"></use>
+              </svg>
+            </button>
+            <picture class="header-brain">
+                <source
+                  srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                  media="(min-width: 320px)"
+                >
+                <img src="./img/main-brain-1x.png" alt="Мозг человека" >
+              </picture>
+              <p class="header-text">тест на определение IQ</p>
+            </div>
+    
+    
+          <div class="nav-mobile-menu is-hidden">
+         
+            <div class="menu-mob-top">
+              <button type="button" class="menu-close-btn">
+                <svg
+                  class=""
+                  width="28"
+                  height="28"
+                  aria-label="Переключатель мобильного меню"
+                >
+                  <use href="./img/symbol-defs.svg#icon-close"></use>
+                </svg>
+              </button>
+    
+            
+            </div>
+           </div>
+     </div>
+
+     <section class="page-bg">
+        <div class="page-box">
+            <div class="page-line line-1"></div>
+        </div>
+        <h2 class="page-title title-1">Ваш пол:</h2>
+        <form class="form" action="#question-2" autocomplete="off">
+            <ul class="page-list list-1">
+              <li class="page-item">
+                <div class="page-item-change">
+                  <input type="radio" name="gender" value="male" class="page-radio">
+                  <p class="page-change">Мужчина</p>
+                </div>
+              </li>
+            
+              <li class="page-item">
+                <div class="page-item-change">
+                  <input type="radio" name="gender" value="femail" class="page-radio">
+                  <p class="page-change">Женщина</p>
+                </div>
+              </li>
+            </ul>
+         
+            <button type="submit" class="next-btn">
+                ДАЛЕЕ
+              </button>
+            </form>
+       
+        </section>
+      </div>
+
+      <div class="container">
+        <div id="question-2" class="header">
+          <div class="header-content">
+                <button type="button" class="menu-open-btn">
+                  <svg
+                    class=""
+                    width="24"
+                    height="16"
+                    aria-label="Переключатель мобильного меню"
+                  >
+                    <use href="./img/symbol-defs.svg#icon-menu"></use>
+                  </svg>
+                </button>
+                <picture class="header-brain">
+                    <source
+                      srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                      media="(min-width: 320px)"
+                    >
+                    <img src="./img/main-brain-1x.png" alt="Мозг человека" >
+                  </picture>
+                  <p class="header-text">тест на определение IQ</p>
+                </div>
+           </div>
+
+           <section class="page-bg">
+            <div class="page-box">
+                <div class="page-line line-2"></div>
+            </div>
+            <h2 class="page-title title-2">Укажите ваш возраст:</h2>
+            <form class="form" action="#question-3" autocomplete="off">
+                <ul class="page-list list-2">
+                  <li class="page-item">
+                    <div class="page-item-change">
+                      <input type="radio" name="age" value="age-1" class="page-radio">
+                   <p class="page-change">До 18</p>
+                    </div>
+                  </li>
+                
+                  <li class="page-item">
+                    <div class="page-item-change">
+                      <input type="radio" name="age" value="age-2" class="page-radio">
+                   <p class="page-change">От 18 до 28</p>
+                    </div>
+                  </li>
+            
+                  <li class="page-item">
+                    <div class="page-item-change">
+                      <input type="radio" name="age" value="age-3" class="page-radio">
+                    <p class="page-change">От 29 до 35</p>
+                    </div>
+                   </li>
+            
+                   <li class="page-item">
+                    <div class="page-item-change">
+                      <input type="radio" name="age" value="age-4" class="page-radio">
+                    <p class="page-change">От 36</p>
+                    </div>
+                   </li>
+            
+                </ul>
+           
+                <button type="submit" class="next-btn">
+                    ДАЛЕЕ
+                  </button>
+                </form>
+                
+            </section>  
+          </div> 
+            
+          <div id="question-3" class="container">
+            <div class="header">
+              <div class="header-content">
+                    <button type="button" class="menu-open-btn">
+                      <svg
+                        class=""
+                        width="24"
+                        height="16"
+                        aria-label="Переключатель мобильного меню"
+                      >
+                        <use href="./img/symbol-defs.svg#icon-menu"></use>
+                      </svg>
+                    </button>
+                    <picture class="header-brain">
+                        <source
+                          srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                          media="(min-width: 320px)"
+                        >
+                        <img src="./img/main-brain-1x.png" alt="Мозг человека" >
+                      </picture>
+                      <p class="header-text">тест на определение IQ</p>
+                    </div>
+               </div>
+
+               <section class="page-bg">
+                <div class="page-box">
+                    <div class="page-line line-3"></div>
+                </div>
+                <h2 class="page-title title-3">Выберите лишнее:</h2>
+                <form class="form" action="#question-4" autocomplete="off">
+                    <ul class="page-list list-3">
+                      <li class="page-item">
+                        <div class="page-item-change">
+                          <input type="radio" name="house" value="house-1" class="page-radio">
+                       <p class="page-change">Дом</p>
+                        </div>
+                      </li>
+                    
+                      <li class="page-item">
+                        <div class="page-item-change">
+                          <input type="radio" name="house" value="house-2" class="page-radio">
+                       <p class="page-change">Шалаш</p>
+                        </div>
+                      </li>
+                
+                      <li class="page-item">
+                        <div class="page-item-change">
+                          <input type="radio" name="house" value="house-3" class="page-radio">
+                        <p class="page-change">Бунгало</p>
+                        </div>
+                       </li>
+                
+                       <li class="page-item">
+                        <div class="page-item-change">
+                          <input type="radio" name="house" value="house-4" class="page-radio">
+                        <p class="page-change">Скамейка</p>
+                        </div>
+                       </li>
+                
+                       <li class="page-item">
+                        <div class="page-item-change">
+                          <input type="radio" name="house" value="house-5" class="page-radio">
+                        <p class="page-change">Хижина</p>
+                        </div>
+                       </li>
+                
+                    </ul>
+                   
+                    <button type="submit" class="next-btn">
+                        ДАЛЕЕ
+                      </button>
+                  
+                </form>
+                  
+                </section> 
+              </div>
+
+              <div class="container">
+                <div id="question-4" class="header">
+                  <div class="header-content">
+                        <button type="button" class="menu-open-btn">
+                          <svg
+                            class=""
+                            width="24"
+                            height="16"
+                            aria-label="Переключатель мобильного меню"
+                          >
+                            <use href="./img/symbol-defs.svg#icon-menu"></use>
+                          </svg>
+                        </button>
+                        <picture class="header-brain">
+                            <source
+                              srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                              media="(min-width: 320px)"
+                            >
+                            <img src="./img/main-brain-1x.png" alt="Мозг человека" >
+                          </picture>
+                          <p class="header-text">тест на определение IQ</p>
+                        </div>
+                   </div>   
+
+                   <section class="page-bg">
+                    <div class="page-box">
+                        <div class="page-line line-4"></div>
+                    </div>
+                    <h2 class="page-title title-4">Продолжите числовой ряд:  
+                        18  20  24  32  </h2>
+                        <form class="form" action="#question-5" autocomplete="off">
+                        <ul class="page-list list-4">
+                          <li class="page-item item-4">
+                            <div class="page-item-change">
+                              <input type="radio" name="number" value="number-1" class="page-radio">
+                           <p class="page-change">62</p>
+                            </div>
+                          </li>
+                        
+                          <li class="page-item item-4">
+                            <div class="page-item-change">
+                              <input type="radio" name="number" value="number-2" class="page-radio">
+                           <p class="page-change">48</p>
+                            </div>
+                          </li>
+                    
+                          <li class="page-item item-4">
+                            <div class="page-item-change">
+                              <input type="radio" name="number" value="number-3" class="page-radio">
+                            <p class="page-change">74</p>
+                            </div>
+                           </li>
+                    
+                           <li class="page-item item-4">
+                            <div class="page-item-change">
+                              <input type="radio" name="number" value="number-4" class="page-radio">
+                            <p class="page-change">57</p>
+                            </div>
+                           </li>
+                    
+                           <li class="page-item item-4">
+                            <div class="page-item-change">
+                              <input type="radio" name="number" value="number-5" class="page-radio">
+                            <p class="page-change">60</p>
+                            </div>
+                           </li>
+                    
+                           <li class="page-item item-4">
+                            <div class="page-item-change">
+                              <input type="radio" name="number" value="number-6" class="page-radio">
+                            <p class="page-change">77</p>
+                            </div>
+                           </li>
+                    
+                        </ul>
+                    
+                        <button type="submit" class="next-btn">
+                            ДАЛЕЕ
+                          </button>
+                        </form>
+
+                   </section> 
+                  </div>
+
+
+              <div class="container">
+                   <div id="question-5" class="header">
+                    <div class="header-content">
+                          <button type="button" class="menu-open-btn">
+                            <svg
+                              class=""
+                              width="24"
+                              height="16"
+                              aria-label="Переключатель мобильного меню"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-menu"></use>
+                            </svg>
+                          </button>
+                          <picture class="header-brain">
+                              <source
+                                srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                media="(min-width: 320px)"
+                              >
+                              <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                            </picture>
+                            <p class="header-text">тест на определение IQ</p>
+                          </div>
+                     </div>  
+                     
+                     <section class="page-bg">
+                      <div class="page-box">
+                          <div class="page-line line-5"></div>
+                      </div>
+                      <h2 class="page-title title-5">Выберите цвет, который сейчас наиболее Вам приятен:</h2>
+                      <form class="form" action="#question-6" autocomplete="off">
+                          <ul class="page-list-squre list list-3">
+                            <li class="page-item5">
+                              <svg
+                                      class=""
+                                      width="75"
+                                      height="75"
+                                      aria-label="Серый квадрат"
+                                    >
+                                      <use href="./img/symbol-defs.svg#icon-square-grey"></use>
+                                  </svg>
+                            </li>
+                          
+                            <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Синий квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-dark-blue"></use>
+                          </svg>
+                            </li>
+                      
+                            <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Зеленый квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-green"></use>
+                          </svg>
+                             </li>
+                      
+                             <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Красный квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-red"></use>
+                          </svg>
+                             </li>
+                      
+                             <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Желтый квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-yellow"></use>
+                          </svg>
+                             </li>
+                      
+                             <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Коричневый квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-brown"></use>
+                          </svg>
+                             </li>
+                      
+                             <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Черный квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-black"></use>
+                          </svg>
+                             </li>
+                      
+                             <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Фиолетовый квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-violet"></use>
+                          </svg>
+                             </li>
+                      
+                             <li class="page-item5">
+                              <svg
+                              class=""
+                              width="75"
+                              height="75"
+                              aria-label="Голубой квадрат"
+                            >
+                              <use href="./img/symbol-defs.svg#icon-square-blue"></use>
+                          </svg>
+                             </li>
+                      
+                          </ul>
+
+                          <button type="submit" class="next-btn">
+                              ДАЛЕЕ
+                            </button>
+                      </form>
+                      
+                     </section>  
+                    </div>
+
+                    <div class="container">
+                     <div id="question-6" class="header">
+                      <div class="header-content">
+                            <button type="button" class="menu-open-btn">
+                              <svg
+                                class=""
+                                width="24"
+                                height="16"
+                                aria-label="Переключатель мобильного меню"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-menu"></use>
+                              </svg>
+                            </button>
+                            <picture class="header-brain">
+                                <source
+                                  srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                  media="(min-width: 320px)"
+                                >
+                                <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                              </picture>
+                              <p class="header-text">тест на определение IQ</p>
+                            </div>
+                       </div> 
+                       <section class="page-bg">
+                        <div class="page-box">
+                            <div class="page-line line-6"></div>
+                        </div>
+                        <h2 class="page-title title-6">Отдохните пару секунд, еще раз выберите цвет, который сейчас наиболее Вам приятен:</h2>
+                        <form class="form" action="#question-7" autocomplete="off">
+                            <ul class="page-list-squre list list-3">
+                              <li class="page-item5">
+                                <svg
+                                        class=""
+                                        width="75"
+                                        height="75"
+                                        aria-label="Серый квадрат"
+                                      >
+                                        <use href="./img/symbol-defs.svg#icon-square-grey"></use>
+                                    </svg>
+                              </li>
+                        
+                              <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Голубой квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-blue"></use>
+                            </svg>
+                               </li>
+                        
+                               <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Коричневый квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-brown"></use>
+                            </svg>
+                               </li>
+                        
+                               <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Зеленый квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-green"></use>
+                            </svg>
+                               </li>
+                        
+                               <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Черный квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-black"></use>
+                            </svg>
+                               </li>
+                        
+                               <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Красный квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-red"></use>
+                            </svg>
+                               </li>
+                        
+                               <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Фиолетовый квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-violet"></use>
+                            </svg>
+                               </li>
+                        
+                               <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Желтый квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-yellow"></use>
+                            </svg>
+                               </li>
+                            
+                              <li class="page-item5">
+                                <svg
+                                class=""
+                                width="75"
+                                height="75"
+                                aria-label="Синий квадрат"
+                              >
+                                <use href="./img/symbol-defs.svg#icon-square-dark-blue"></use>
+                            </svg>
+                              </li>
+                        
+                        
+                            </ul>
+
+                            <button type="submit" class="next-btn">
+                                ДАЛЕЕ
+                              </button>
+                        </form>
+                          
+                        </section> 
+                      </div> 
+
+                      <div class="container">
+                        <div id="question-7" class="header">
+                          <div class="header-content">
+                                <button type="button" class="menu-open-btn">
+                                  <svg
+                                    class=""
+                                    width="24"
+                                    height="16"
+                                    aria-label="Переключатель мобильного меню"
+                                  >
+                                    <use href="./img/symbol-defs.svg#icon-menu"></use>
+                                  </svg>
+                                </button>
+                                <picture class="header-brain">
+                                    <source
+                                      srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                      media="(min-width: 320px)"
+                                    >
+                                    <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                                  </picture>
+                                  <p class="header-text">тест на определение IQ</p>
+                                </div>
+                           </div> 
+                           <section class="page-bg">
+                            <div class="page-box">
+                                <div class="page-line line-7"></div>
+                            </div>
+                            <h2 class="page-title title-7">Какой из городов лишний?</h2>
+                            <form class="form" action="#question-8" autocomplete="off">
+                                <ul class="page-list list-7">
+                                  <li class="page-item item-4">
+                                    <div class="page-item-change">
+                                      <input type="radio" name="city" value="city-1">
+                                   <p class="page-change">Вашингтон</p>
+                                    </div>
+                                  </li>
+                                
+                                  <li class="page-item item-4">
+                                    <div class="page-item-change">
+                                      <input type="radio" name="city" value="city-2">
+                                   <p class="page-change">Лондон</p>
+                                    </div>
+                                  </li>
+                            
+                                  <li class="page-item item-4">
+                                    <div class="page-item-change">
+                                      <input type="radio" name="city" value="city-3">
+                                    <p class="page-change">Париж</p>
+                                    </div>
+                                   </li>
+                            
+                                   <li class="page-item item-4">
+                                    <div class="page-item-change">
+                                      <input type="radio" name="city" value="city-4">
+                                    <p class="page-change">Нью-Йорк</p>
+                                    </div>
+                                   </li>
+                            
+                                   <li class="page-item item-4">
+                                    <div class="page-item-change">
+                                      <input type="radio" name="city" value="city-5">
+                                    <p class="page-change">Киев</p>
+                                    </div>
+                                   </li>
+                            
+                                   <li class="page-item item-4">
+                                    <div class="page-item-change">
+                                      <input type="radio" name="city" value="city-6">
+                                    <p class="page-change">Оттава</p>
+                                    </div>
+                                   </li>
+                            
+                                </ul>
+                         
+                                <button type="submit" class="next-btn">
+                                    ДАЛЕЕ
+                                  </button>
+                            </form>
+                                
+                            </section>
+                          </div>
+
+                          <div class="container">
+                            <div id="question-8" class="header">
+                              <div class="header-content">
+                                    <button type="button" class="menu-open-btn">
+                                      <svg
+                                        class=""
+                                        width="24"
+                                        height="16"
+                                        aria-label="Переключатель мобильного меню"
+                                      >
+                                        <use href="./img/symbol-defs.svg#icon-menu"></use>
+                                      </svg>
+                                    </button>
+                                    <picture class="header-brain">
+                                        <source
+                                          srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                          media="(min-width: 320px)"
+                                        >
+                                        <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                                      </picture>
+                                      <p class="header-text">тест на определение IQ</p>
+                                    </div>
+                               </div> 
+                               <section class="page-bg">
+                                <div class="page-box">
+                                    <div class="page-line line-8"></div>
+                                </div>
+                                <h2 class="page-title title-8">Выберите правильную фигуру из четырёх пронумерованных.</h2>
+                                    
+                                <picture class="page-figure">
+                                    <source
+                                      srcset="./img/icon-figure-1x.jpg 1x, ./img/icon-figure-2x.jpg 2x"
+                                      media="(min-width: 320px)"
+                                    >
+                                    <img src="./img/icon-figure-1x.jpg" alt="Фигурки в форме человека" >
+                                  </picture>
+                                
+                                  <form class="form" action="#question-9" autocomplete="off">
+                                <ul class="page-list-squre list list-3">
+                                      <li class="page-item6">
+                                        <div class="page-number">1</div>
+                                      </li>
+                                    
+                                      <li class="page-item6">
+                                        <div class="page-number">2</div>
+                                      </li>
+                                
+                                      <li class="page-item6">
+                                        <div class="page-number">3</div>
+                                      </li>
+                                
+                                      <li class="page-item6">
+                                        <div class="page-number">4</div>
+                                      </li>
+                                       
+                                    </ul>
+
+                                    <button type="submit" class="next-btn">
+                                        ДАЛЕЕ
+                                      </button>
+                                  </form>
+                                  
+                                </section>
+                              </div>
+
+                              <div class="container">
+                                <div id="question-9" class="header">
+                                  <div class="header-content">
+                                        <button type="button" class="menu-open-btn">
+                                          <svg
+                                            class=""
+                                            width="24"
+                                            height="16"
+                                            aria-label="Переключатель мобильного меню"
+                                          >
+                                            <use href="./img/symbol-defs.svg#icon-menu"></use>
+                                          </svg>
+                                        </button>
+                                        <picture class="header-brain">
+                                            <source
+                                              srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                              media="(min-width: 320px)"
+                                            >
+                                            <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                                          </picture>
+                                          <p class="header-text">тест на определение IQ</p>
+                                        </div>
+                                   </div> 
+                                   <section class="page-bg">
+                                    <div class="page-box">
+                                        <div class="page-line line-9"></div>
+                                    </div>
+                                    <h2 class="page-title title-9">Вам привычнее и важнее:</h2>
+                                    <form class="form" action="#question-10" autocomplete="off">
+                                        <ul class="page-list list-9">
+                                          <li class="page-item item-9">
+                                            <div class="page-item-change">
+                                              <input type="radio" name="closer" value="closer-1" class="page-radio circle">
+                                           <p class="page-change change-9">Наслаждаться
+                                            каждой минутой 
+                                            проведенного времени</p>
+                                            </div>
+                                          </li>
+                                        
+                                          <li class="page-item item-9">
+                                            <div class="page-item-change">
+                                              <input type="radio" name="closer" value="closer-2" class="page-radio circle">
+                                           <p class="page-change change-9">Быть устремленными 
+                                            мыслями в будущее</p>
+                                            </div>
+                                          </li>
+                                    
+                                          <li class="page-item item-9">
+                                            <div class="page-item-change">
+                                              <input type="radio" name="closer" value="closer-3" class="page-radio circle">
+                                            <p class="page-change change-9">Учитывать в ежедневной 
+                                                практике прошлый опыт</p>
+                                            </div>
+                                           </li>
+                                        </ul>
+
+                                        <button type="submit" class="next-btn">
+                                            ДАЛЕЕ
+                                          </button>
+                                    </form>
+                                      
+                                    </section>
+                                  </div>
+
+                                  <div class="container">
+                                    <div id="question-10" class="header">
+                                      <div class="header-content">
+                                            <button type="button" class="menu-open-btn">
+                                              <svg
+                                                class=""
+                                                width="24"
+                                                height="16"
+                                                aria-label="Переключатель мобильного меню"
+                                              >
+                                                <use href="./img/symbol-defs.svg#icon-menu"></use>
+                                              </svg>
+                                            </button>
+                                            <picture class="header-brain">
+                                                <source
+                                                  srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                                  media="(min-width: 320px)"
+                                                >
+                                                <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                                              </picture>
+                                              <p class="header-text">тест на определение IQ</p>
+                                            </div>
+                                       </div> 
+                                       <section class="page-bg">
+                                        <div class="page-box">
+                                            <div class="page-line line-10"></div>
+                                        </div>
+                                        <h2 class="page-title title-10">Какое определение, по-Вашему, больше подходит к этому геометрическому изображению:</h2>
+                                      
+                                        <picture class="page-geometry">
+                                            <source
+                                              srcset="./img/icon-geomerty-1x.jpg 1x, ./img/icon-geomerty-2x.jpg 2x"
+                                              media="(min-width: 320px)"
+                                            >
+                                            <img src="./img/icon-geomerty-1x.jpg" alt="Геометрическая фигура" >
+                                          </picture>
+                                        
+                                          <form class="form" action="#question-11" autocomplete="off">
+                                          <ul class="page-list list-10">
+                                            <li class="page-item">
+                                              <div class="page-item-change">
+                                                <input type="radio" name="figure" value="type-1" class="page-radio circle">
+                                             <p class="page-change change-9">Оно остроконечное</p>
+                                              </div>
+                                            </li>
+                                          
+                                            <li class="page-item">
+                                              <div class="page-item-change">
+                                                <input type="radio" name="figure" value="type-2" class="page-radio circle">
+                                             <p class="page-change change-9">Оно устойчиво</p>
+                                              </div>
+                                            </li>
+                                        
+                                            <li class="page-item">
+                                              <div class="page-item-change">
+                                                <input type="radio" name="figure" value="type-2" class="page-radio circle">
+                                                <p class="page-change change-9">Оно-находится в состоянии равновесия
+                                                </p>
+                                              </div>
+                                               </li>
+                                          </ul>
+
+                                            <button type="submit" class="next-btn">
+                                                ДАЛЕЕ
+                                              </button>
+                                          </form>
+                                          
+                                        </section>
+                                      </div>
+
+                                      <div class="container">
+                                        <div id="question-11" class="header">
+                                          <div class="header-content">
+                                                <button type="button" class="menu-open-btn">
+                                                  <svg
+                                                    class=""
+                                                    width="24"
+                                                    height="16"
+                                                    aria-label="Переключатель мобильного меню"
+                                                  >
+                                                    <use href="./img/symbol-defs.svg#icon-menu"></use>
+                                                  </svg>
+                                                </button>
+                                                <picture class="header-brain">
+                                                    <source
+                                                      srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                                      media="(min-width: 320px)"
+                                                    >
+                                                    <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                                                  </picture>
+                                                  <p class="header-text">тест на определение IQ</p>
+                                                </div>
+                                           </div> 
+
+                                           <section class="page-bg">
+                                            <div class="page-box">
+                                                <div class="page-line line-11"></div>
+                                            </div>
+                                            <h2 class="page-title title-11">Вставьте подходящее число</h2>
+                                              
+                                            <picture class="page-star">
+                                                <source
+                                                  srcset="./img/icon-star-1x.jpg 1x, ./img/icon-star-2x.jpg 2x"
+                                                  media="(min-width: 320px)"
+                                                >
+                                                <img src="./img/icon-star-1x.jpg" alt="Фигурка в форме звезды" >
+                                              </picture>
+                                            
+                                              <div class="page-line-11"></div>
+
+                                              <form class="form" action="#question-12" autocomplete="off">
+                                            
+                                            <ul class="page-list-squre-11 list list-4">
+                                                  <li class="page-item11">
+                                                    <div class="page-number number-11">34</div>
+                                                  </li>
+                                                
+                                                  <li class="page-item11">
+                                                    <div class="page-number number-11">36</div>
+                                                  </li>
+                                            
+                                                  <li class="page-item11">
+                                                    <div class="page-number number-11">53</div>
+                                                  </li>
+                                            
+                                                  <li class="page-item11">
+                                                    <div class="page-number number-11">44</div>
+                                                  </li>
+                                            
+                                                  <li class="page-item11">
+                                                    <div class="page-number number-11">66</div>
+                                                  </li>
+                                            
+                                                  <li class="page-item11">
+                                                    <div class="page-number">42</div>
+                                                  </li>
+                                                   
+                                                </ul>
+
+                                                <button id="start-timer" type="submit" class="next-btn">
+                                                    ДАЛЕЕ
+                                                  </button>
+                                              </form>
+                                                
+                                            </section>
+                                          </div>
+
+                                          <div class="container">
+                                            <div id="question-12" class="header">
+                                              <div class="header-content">
+                                                    <button type="button" class="menu-open-btn">
+                                                      <svg
+                                                        class=""
+                                                        width="24"
+                                                        height="16"
+                                                        aria-label="Переключатель мобильного меню"
+                                                      >
+                                                        <use href="./img/symbol-defs.svg#icon-menu"></use>
+                                                      </svg>
+                                                    </button>
+                                                    <picture class="header-brain">
+                                                        <source
+                                                          srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                                          media="(min-width: 320px)"
+                                                        >
+                                                        <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                                                      </picture>
+                                                      <p class="header-text">Тест на определение IQ</p>
+                                                    </div>
+                                               </div> 
+                                               <section class="page-bg">
+                                               
+                                                <div class="page-box">
+                                                    <div class="page-line line-loading"></div>
+                                                </div>
+                                                
+                                                <h2 class="page-title title-loading">Обработка результатов</h2>
+                                                    
+                                                
+                                                  <div class="spinner"></div>
+                                                
+                                                  <p class="text-loading">Определение стиля мышления...........
+                                                    .......................................................</p>
+                                                  
+                                                </section>
+                                              </div>
+
+                                             
+                                                <div class="header">
+                                                  <div class="header-content">
+                                                        <button type="button" class="menu-open-btn">
+                                                          <svg
+                                                            class=""
+                                                            width="24"
+                                                            height="16"
+                                                            aria-label="Переключатель мобильного меню"
+                                                          >
+                                                            <use href="./img/symbol-defs.svg#icon-menu"></use>
+                                                          </svg>
+                                                        </button>
+                                                        <picture class="header-brain">
+                                                            <source
+                                                              srcset="./img/main-brain-1x.png 1x, ./img/main-brain-2x.png 2x"
+                                                              media="(min-width: 320px)"
+                                                            >
+                                                            <img src="./img/main-brain-1x.png" alt="Мозг человека">
+                                                          </picture>
+                                                          <p class="header-text">тест на определение IQ</p>
+                                                        </div>
+                                                   </div> 
+
+                                                 
+                                                   <section class="main-rezult">
+                                                    <h2 class="title-rezult">Ваш результат рассчитан:</h2>
+                                                    
+                                                    <p class="main-text-describe"><span>Вы относитесь к 3%</span> респондентов, чей уровень интеллекта более чем на 
+                                                        15 пунктов отличается от среднего в большую или меньшую сторону! 
+                                            
+                                                    </p>
+                                                    <p class="text-rezult-finish">Скорее получите свой результат!
+                                                    </p>
+                                                    
+                                        
+                                                    <p class="main-info-text">В целях защиты персональных 
+                                                        данных результат теста, их подробная интерпретация и рекомендации доступны в виде голосового сообщения по звонку с вашего мобильного телефона
+                                                        </p>
+                                                        
+                                                        <p class="rezult-timer">Звоните скорее, запись доступна всего</p>
+                                                        <div class="timer">
+                                                          <div class="timer-items">
+                                                            <div class="timer-item timer-minutes">10</div>
+                                                            <div class="timer-item timer-seconds">00</div>
+                                                           
+                                                          </div>
+                                                          <p class="rezult-timer-minutes">минут</p>
+                                                        </div>
+
+                                                        <button type="submit" class="send-btn rezult-phone-text" data-modal-open>
+  
+                                                            <svg
+                                                            class="phone"
+                                                            width="40"
+                                                            height="40"
+                                                            aria-label="Значок телефона"
+                                                          >
+                                                            <use href="./img/symbol-defs.svg#icon-phone"></use>
+                                                        </svg>
+                                                           Позвонить и прослушать
+                                                                результат
+                                                      
+                                                      </button>
+                                                      <div class="lightning-right"></div>
+                                                      
+                                                        <div class="lightning-left"></div>
+                                        
+                                                      </section> 
+                                                 
+                                                  </main>
+                                                  <div class="footer-container">
+                                                      <footer class="footer-text">
+                                                        <p>TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE DIVERTISMENT. PRIN FOLOSIREA LUI DECLARATI CA AVETI 18 ANI IMPLINITI, </p>
+                                                      </footer>
+                                                    </div>
+
+
+                                                    <div class="backdrop is-hidden" data-modal>
+                                                      <div class="modal">
+                                                        <button type="button" class="modal-close-btn" data-modal-close>
+                                                          
+                                                            <svg
+                                                              class=""
+                                                              width="28"
+                                                              height="28"
+                                                              aria-label="Переключатель мобильного меню"
+                                                            >
+                                                              <use href="./img/symbol-defs.svg#icon-close"></use>
+                                                            </svg>
+                                                          </button>
+                                                      
+                                                      </div>
+                                                    </div>
+                                                                                                                           
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/timer.js"></script>
+
+  </body>
+</html>
